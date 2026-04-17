@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #FBF9E4; /* Pearl Perfect */
+}
+
+/* HEADER FIJO */
+header {
+    background: #122C4F; /* Midnight */
+    color: #FBF9E4; /* Pearl Perfect */
+    text-align: center;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1001;
+}
+
+/* NAV FIJO */
+nav {
+    background: #5B88B2; /* Ocean */
+    position: sticky;
+    top: 100px;
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 10px;
+}
+
+nav ul li a {
+    color: #FBF9E4; /* Pearl Perfect */
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+nav ul li a:hover {
+    background: #122C4F; /* Midnight */
+    border-radius: 5px;
+}
+
+/* MAIN ocupa todo el ancho */
+main {
+    width: 100%;
+}
+
+/* SECCIONES */
+section {
+    padding: 20px;
+    margin: 20px;
+    background: #FBF9E4; /* Pearl Perfect */
+    border-radius: 10px;
+    text-align: center;
+
+    scroll-margin-top: 190px;
+}
+
+/* CENTRAR CONTENIDO INTERNO */
+article {
+    max-width: 600px;
+    margin: auto;
+}
+
+h2 {
+    color: #122C4F; /* Midnight */
+    margin-bottom: 10px;
+}
+
+/* IMÁGENES CENTRADAS */
+img {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+/* GALERÍA */
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.galeria img {
+    width: 250px;
+}
+
+/* BOTÓN */
+.btn {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #5B88B2; /* Ocean */
+    color: #FBF9E4; /* Pearl Perfect */
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #122C4F; /* Midnight */
+    transform: scale(1.05);
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #000000; /* Noir */
+    color: #FBF9E4; /* Pearl Perfect */
+    margin-top: 20px;
+}
